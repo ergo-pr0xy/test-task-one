@@ -30,7 +30,7 @@
                         путешествия<br>
                         существуют
                     </h1>
-                    <p class="header__description">
+                    <p class="header__description description">
                         Идейные соображения высшего порядка, а также рамки и <br>
                         место обучения кадров
                     </p>
@@ -41,7 +41,7 @@
     <main class="main">
         <div class="main__container">
             <div class="tour-selection">
-                <h2 class="tour-selection__title">
+                <h2 class="tour-selection__title title">
                     Выбери свой тур
                 </h2>
                 <ul class="tour-selection__type">
@@ -52,52 +52,83 @@
                     <li><button class="tour-selection__item">Велопрогулки</button></li>
                 </ul>
                 <div class="cards-list">
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-1.jpg);">
+                    <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-1.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-2.jpg);">
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
+                    <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-2.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-3.jpg);">
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
+                    <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-3.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-4.jpg);">
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
+                    <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-4.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-5.jpg);">
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
+                    <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-5.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
-                    <div class="cards-list__card" style="--bg-image: url(../images/card-photo-6.jpg);">
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
+                     <a href="" class="cards-list__card" style="--bg-image: url(../images/card-photo-6.jpg);">
                         <h3 class="card__header">Путешествие<br>в горы</h3>
                         <p class="card__price">от 80 000 руб</p>
-                        <div class="card__link">
-                            <a href="#!" class="link">Подробнее<img src="../images/arrow.svg" alt="" class="arrow"></a>
-                        </div>
-                    </div>
+                        <p class="card__link">
+                           Подробнее<img src="../images/arrow.svg" alt="" class="arrow">
+                        </p>
+                    </a>
                 </div>
             </div>
             <div class="tour-building">
-
+                <h2 class="tour-building__title title">
+                    Собери свой тур
+                </h2>
+                <p class="tour-building__description description">
+                    Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
+                </p>
+                <form action="" class="tour-building__form">
+                    <div class="input-wrapper">
+                        <label for="name" class="label">Имя</label>
+                        <input id="name" type="text" name="user-name" placeholder="Введите Ваше имя" class="input" size="150" />
+                    </div>
+                    <div class="select-wrapper">
+                        <p class="select-title">Направление</p>
+                         <select class="tour-building__select">
+                            <option selected class="tour-building__select--selected">Куда хотите ехать</option>
+                            <option>Евразия</option>
+                            <option>Африка</option>
+                            <option>Северная Америка</option>
+                            <option>Южная Америка</option>
+                            <option>Антарктида</option>
+                            <option>Австралия</option>
+                        </select>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="email" class="label">Email</label>
+                        <input id="email" type="email" name="email" placeholder="example@mail.com" class="input" size="150" />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="number" class="label">Телефон</label>
+                        <input id="number" type="tel" name="phonenumber" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class="input" size="150" />
+                    </div>
+                </form>
             </div>
         </div>
     </main>
