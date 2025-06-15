@@ -39,7 +39,7 @@ ul {
     all: unset;
 }
 
-input {
+.input {
     all: unset;
 }
 
@@ -268,7 +268,7 @@ button {
     background-color: rgba(40, 101, 98, 0);
 }
 
-.card__link:active {
+.cards-list__card:active .card__link {
     background-color: #EFA501;
 }
 
@@ -291,14 +291,24 @@ button {
 }
 
 .tour-building__form {
-    display: flex;
-    padding: 70px;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-
     background-color: #FFFFFF;
     border-radius: 50px;
+    padding: 70px;
+}
+
+.tour-building__inner-container1 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tour-building__inner-container2 {
+    display: flex;
+    margin-top: 30px;
+    gap: 33px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .input-wrapper {
@@ -306,6 +316,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 3px;
+    max-width: 500px;
 }
 
 .label {
@@ -316,9 +327,8 @@ button {
     line-height: 142%;
 }
 
-.input {
+.tour-building__inner-container1 .input {
     box-sizing: border-box;
-    max-width: 500px;
     max-height: 68px;
     width: 100%;  
     height: 100%;
@@ -385,4 +395,45 @@ button {
 
 .tour-building__select--selected {
 
+}
+
+.textarea-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1030px;
+    width: 100%;
+}
+
+.comment {
+    box-sizing: border-box;
+    max-height: 152px;
+    width: 100%;
+    height: 100%;
+    padding: 21px 19px;
+ 
+
+    background-color: #F9F7F4;
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+    color: #1B1F2B;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    outline: none;
+
+    resize: none;
+}
+
+.radio-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    gap: 31px;
+}
+
+.radio-button__header-text {
+    display: block;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
 }
